@@ -1,6 +1,6 @@
 pipeline {
     tools {
-        sonarQube 'SonarQube'
+        SonarQube 'SonarQube'
     }
     agent any
     stages {
