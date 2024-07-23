@@ -1,4 +1,7 @@
 pipeline {
+    tools {
+        sonarQube 'SonarQube'
+    }
     agent any
     stages {
         stage ('Checkout') {
